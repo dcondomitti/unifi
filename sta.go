@@ -15,6 +15,7 @@ type Sta struct {
 	UptimeByUsw      int    `json:"_uptime_by_usw,omitempty"`
 	AssocTime        int    `json:"assoc_time"`
 	FirstSeen        int64  `json:"first_seen"`
+	Identity         string `json:"1x_identity"`
 	IP               string `json:"ip"`
 	IsGuest          bool   `json:"is_guest"`
 	IsWired          bool   `json:"is_wired"`
